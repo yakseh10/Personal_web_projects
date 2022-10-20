@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: auto;
+}
+.mainDiv{
+    background-color: blue;
+    height: 450px;
+    width: 0px;
+    transition: 0.5s;
+    
+}
+
+.navbar{
+    text-align: left;
+    
+}
+li{
+    list-style-type: none;
+    padding: 15px;
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+button{
+    margin: 10px;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: lightgreen;
+}

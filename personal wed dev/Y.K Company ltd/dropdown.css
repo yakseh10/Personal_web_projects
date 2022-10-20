@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    font-family: sans-serif;
+    background: lightgrey;
+}
+.menu-bar{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    color: white;
+    background: rgba(0, 100, 0);
+    list-style: none;
+   
+    width: 100%;
+}
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 12px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.sub-menu{
+    display: none;
+    margin-top: -5px
+}
+.menu-bar ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: rgba(0,100,0);
+    margin-top: 10px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu ul{
+    display: block;
+    margin: 0px;
+    padding: 0;
+}
+.menu-bar ul li:hover .sub-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu ul li a:hover{
+    color: #b2ff00;
+}
+.sub-menu-1{
+    display: none;
+}
+.hover-me:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    margin-top: -42px;
+    margin-left: 140px;
+    background: rgb(0,100,0);
+}
+.sentence{
+    text-align: center;
+    color: white;
+    justify-content: center;
+    width: 60vw;
+    align-content: center;
+    margin-top: 220px;
+    margin-left: 280px;
+}
+.sentence h3{
+    font-size: 45px;
+    color:  #2bab0d;
+    font-weight: bold;
+    margin: auto;
+}
+.sentence p{
+    text-align: center;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.btn{
+    margin: 12px;
+    padding: 8px;
+    width: 175px;
+    height: auto;
+    font-size: 28px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    /* background-color: rgb(0,100,0); */
+    color: white;
+}
+.btn:hover{
+    background-color:#2bab0d;
+    color: white;
+}
+.background{
+    background: lightgrey;
+}
+.header{
+    margin-bottom: -30px;
+}
+.header h1{
+    font-size: 37px;
+}
+.images-1{
+    height: 160px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.images{
+    margin: 6px;
+   
+    height:145px;
+    width: 18%;
+}
+.slideshow{
+    margin-bottom: 30px;
+    margin-left: 10px;
+    background: lightgrey;
+}
+.slideshow h3{
+    text-align: center;
+    padding: 25px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form{
+    margin-bottom: 80px;
+    border: 2px solid gray;
+    margin-left: 30%;
+    width: 435px;
+    height: 300px;
+    padding: 12px;
+    background: grey;
+}
+.form h3{
+    font-family: sans-serif;
+    margin-left: 25%;
+    font-size: 32px;
+    width:65%;
+    color:  rgb(0,100,0);
+
+}
+.form input{
+    padding: 10px;
+    display:list-item;
+    border-radius: 2px;
+    justify-content: center;
+    align-content: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 25%;
+   
+}
+.form label{
+    justify-content: center;
+    font-weight: bold;
+    display: list-item;
+    color:rgb(0,100,0);
+    padding: 5px;
+    font-size: 18px;
+    list-style: none;
+    margin-left: 25%;
+}
+.form button{
+    
+    padding: 6px;
+    margin-top: 15px;
+    margin-left: 25%;
+}
+footer{
+    background:rgba(0,100,0) ;
+    margin-top: 100px;
+    height: auto;
+    width: 100vw;
+    font-family: "open sans";
+    padding-top: 30px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 15px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover{
+    color: turquoise;
+}
+.footer-bottom{
+    background: #0111;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: darkcyan;
+    background-position: center;
+    background-size: auto;
+    
+
+}
+
+
+.navBar,h4{
+    font-size: 35px;
+    color: white;
+    
+    position: relative;
+}
+h4{
+    margin-right: auto;
+}
+
+
+
+.navBar,a,li{
+   
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    color: white;
+    padding: 0px 10px;
+    
+    
+}
+.navBar{
+    display: flex;
+    height: 75px;
+    padding: 0px 10%;
+    list-style: none;
+    background-color:rgb(0, 153, 255) ;
+    align-items: center;
+    justify-content: flex-end;
+    
+    
+}
+.navBar,a:hover{
+    color: red;
+}
+
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0,0,0,0.4);
+    text-align: center;
+    border-radius: 40px 40px;
+    margin-top: 100px;
+    margin-bottom: 55px;
+    height: 450px;
+
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.box input[type="text"], .box input[type="password"],.box input[type="email"], .box input[type="number"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 3px solid blue;
+    padding: 14px 12px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24;
+    transition: 0.25px;
+    border-radius: 25px;
+
+}
+
+.box input[type="text"]:focus, .box input[type="password"]:focus,.box input[type="email"]:focus, .box input[type="number"]:focus{
+    width: 270px;
+    border-color: yellow;
+}
+
+.box button[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid yellow;
+    padding: 15px 35px;
+    
+    outline: none;
+    color: white;
+    border-radius: 24;
+    transition: 0.25px;
+    cursor: pointer;
+    border-radius: 25px;
+    
+
+}
+.box button[type="submit"]:hover{
+    background-color: yellow;
+}
+
+footer{
+    padding: auto;
+    margin-top: 750px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 50px;
+    align-items: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: maroon;
+}

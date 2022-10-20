@@ -1,0 +1,76 @@
+body{
+    background-color: lightblue;
+}
+.table{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: auto;
+    position: relative;
+    background-position: center;
+    width: 15% auto;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.container{
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color: darkslategray;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+}
+input{
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 20px 24px;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 12px;
+}
+input[value]{
+    font-size: 18px;
+}
+.clear{
+    background-color: tomato;
+}
+.textarea{
+    background-color: whitesmoke;
+    width: 95%;
+    padding-left: 12px 14px;
+    font-size: 16px;
+}
+
+.slass{
+    background-color: royalblue;
+}
+
+.add{
+    background-color: green;
+}
+.minus{
+    background-color: cyan;
+
+}
+.multi{
+    background-color: lightsalmon;
+
+}
+.equal{
+    background-color: orange;
+}
+.dot{
+    background-color: saddlebrown;
+}

@@ -1,0 +1,75 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: burlywood;
+}
+
+.row{
+    align-items: center;
+    text-align: center;
+    margin: 40px 30%;
+    margin-top: 250px;
+    border-style: solid;
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    height: auto;
+    justify-content: center;
+    position:relative;
+    background-position: center;
+    background-color: lightblue;
+}
+   
+h1{
+    color: teal;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding:14px 14px;
+    
+
+}
+ #number{
+    color: violet;
+}
+ button{
+    text-decoration: none;
+    list-style: none;
+    border-radius: 15px;
+    padding: 8px 8px;
+    margin: 8px 8px;
+  
+ }
+ .increment{
+     background-color: green ;
+     font-size: 14px;
+     font-weight: bold;
+     color: white;
+
+ }
+ .increment:hover{
+     color: greenyellow;
+ }
+ .decrement{
+    background-color:red;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+
+ }
+ .decrement:hover{
+     color: tomato;
+ }
+ .neutral{
+    background-color:blue;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+
+ }
+ .neutral:hover{
+     color:skyblue ;
+ }

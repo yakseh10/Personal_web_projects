@@ -1,0 +1,28 @@
+
+.main{
+    align-items: center;
+    justify-content: flex-end;
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    margin: 20px;
+    padding-top: 10px;
+    display: inline;
+}
+.button{
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: skyblue;
+    color:black;
+    float: inline-end;
+}
+.button:hover{
+    background-color: yellow;
+    color: red;
+}
